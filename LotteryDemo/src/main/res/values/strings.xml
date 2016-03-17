@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">我的夺宝</string>
+    <string name="action_settings">设置</string>
+    <string name="lottery_name">@string/app_name</string>
+    <string name="snatch_record_tab">夺宝记录</string>
+    <string name="winning_tab_record">中奖记录</string>
+    <string name="lottery_item_state">参与中</string>
+    <string name="lottery_item_winner">获奖者:</string>
+</resources>

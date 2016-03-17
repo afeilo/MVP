@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="lottery_title_text_size">16sp</dimen>
+    <dimen name="lottery_view_pager_tab_indicator_height">1.3dp</dimen>
+    <dimen name="lottery_item_padding">10.7dp</dimen>
+    <dimen name="lottery_item_image_side_length">52dp</dimen>
+    <dimen name="lottery_item_title_size">12sp</dimen>
+    <dimen name="lottery_item_info_margin_left">@dimen/lottery_item_padding</dimen>
+    <dimen name="lottery_item_more_info_text_size">10.7sp</dimen>
+    <dimen name="lottery_item_progress_bar_height">7.3dp</dimen>
+    <dimen name="lottery_item_progress_bar_radius">3.6dp</dimen>
+    <dimen name="lottery_item_state_text_size">6.7sp</dimen>
+    <dimen name="lottery_item_state_width">28dp</dimen>
+    <dimen name="lottery_item_state_height">10dp</dimen>
+    <dimen name="lottery_item_state_radius">5dp</dimen>
+    <dimen name="lottery_item_state_stroke_width">0.3dp</dimen>
+</resources>

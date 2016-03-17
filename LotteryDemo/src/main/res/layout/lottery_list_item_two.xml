@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/lottery_item_padding">
+    <ImageView
+        android:layout_width="@dimen/lottery_item_image_side_length"
+        android:layout_height="@dimen/lottery_item_image_side_length"
+        android:scaleType="centerCrop"
+        android:id="@+id/lottery_item_image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/lottery_item_title_size"
+        android:textColor="@color/lotteryItemTitleTextColor"
+        android:id="@+id/lottery_item_title"
+        android:layout_marginLeft="@dimen/lottery_item_info_margin_left"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lottery_item_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/lottery_item_more_info_text_size"
+        android:textColor="@color/lotteryItemMoreInfoTextColor"
+        android:id="@+id/lottery_item_sub_title"
+        android:layout_below="@+id/lottery_item_title"
+        android:layout_alignLeft="@+id/lottery_item_title"
+        android:layout_alignStart="@+id/lottery_item_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/lottery_item_more_info_text_size"
+        android:textColor="@color/lotteryItemMoreInfoTextColor"
+        android:id="@+id/lottery_item_more_info"
+        android:layout_alignLeft="@+id/lottery_item_title"
+        android:layout_alignBottom="@+id/lottery_item_image"
+        android:layout_toRightOf="@+id/lottery_item_image" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/lottery_item_more_info_text_size"
+        android:textColor="@color/lotteryItemTitleTextColor"
+        android:id="@+id/lottery_item_winner"
+        android:text="@string/lottery_item_winner"
+        android:layout_below="@+id/lottery_item_sub_title"
+        android:layout_alignLeft="@+id/lottery_item_sub_title"
+        android:layout_alignStart="@+id/lottery_item_sub_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/lottery_item_more_info_text_size"
+        android:textColor="@color/lotteryItemWinnerTextColor"
+        android:id="@+id/lottery_item_winner_name"
+        android:layout_alignTop="@+id/lottery_item_winner"
+        android:layout_toRightOf="@+id/lottery_item_winner"
+        android:layout_toEndOf="@+id/lottery_item_winner" />
+
+
+</RelativeLayout>

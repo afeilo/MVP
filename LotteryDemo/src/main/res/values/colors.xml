@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lotteryMainColor">#FFF2F2F2</color>
+    <color name="lotteryViewPagerTabSelected">#FFE64D43</color>
+    <color name="lotteryViewPagerTabNormal">#B3000000</color>
+    <color name="lotteryItemTitleTextColor">#DE000000</color>
+    <color name="lotteryItemMoreInfoTextColor">#B3000000</color>
+    <color name="lotteryItemWinnerTextColor">#FFE64D43</color>
+    <color name="lotteryItemProgressStartColor">#FFFF3D20</color>
+    <color name="lotteryItemProgressNormalColor">#FFF2F2F2</color>
+    <color name="lotteryItemProgressEndColor">#FFFF8D41</color>
+    <color name="lotteryItemStateColor">@color/lotteryItemWinnerTextColor</color>
+    <color name="dividerColor">@color/lotteryMainColor</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/lottery_item_progress_bar_radius"></corners>
+            <solid
+                android:color="@color/lotteryItemProgressNormalColor"></solid>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/lottery_item_progress_bar_radius"></corners>
+                <gradient
+                    android:startColor="@color/lotteryItemProgressStartColor"
+                    android:centerColor="@color/lotteryItemProgressEndColor"></gradient>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
